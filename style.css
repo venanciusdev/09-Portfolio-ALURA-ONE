@@ -1,0 +1,342 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+/* Cor icones: #62BA45 */
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #ffffff;
+   --cor-de-link: #50d688;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sessão Menu*/
+
+section.menu{
+    padding-left: 152px;
+    padding-right: 152px;
+    display: flex;
+    justify-content: space-between;
+    width: 1136px;
+    height: 88px;
+    align-items: center;
+}
+
+.menu__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 160px;
+    height: 24px;
+    align-items: center;
+    gap:3.5px
+}
+
+.menu__title {
+    margin: 0px;
+    font-size: 16px;
+    width: 138px;
+    height: 19px;
+    text-align: center;
+}
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 32px;
+}
+/*Sessão Title*/
+
+section.title{
+    padding-left: 152px;
+    width: 1136px;
+
+}
+
+.title__div {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.title__bio {
+    font-size: 52px;
+}
+
+.title__profile {
+    width: 30%;
+    height: 30%;
+    margin-top: 6rem;
+}
+
+.title__subsection {
+    font-weight: 500;
+    line-height: 1.5;
+    padding-right: 4%;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    gap:32px;
+}
+
+/*Sessão About*/
+
+section.about{
+    padding-left: 152px;
+    width: 1136px;
+}
+
+.about__title {
+    font-size:32px;
+
+}
+
+.about__paragraph {
+    line-height: 1.5;
+}
+
+/* Sessão Skills */
+section.skills {
+    padding-left: 152px;
+    width: 1136px;
+}
+.skills__title {
+    font-size:32px;
+    text-align: center;
+    background-color: #AFD5AA;
+}
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills__box {
+    text-align: center;
+}
+/*Sessão Hobbies*/
+
+section.hobbies{
+    padding-left: 152px;
+    width: 1136px;
+}
+
+.hobbies__title {
+    font-size:32px;
+    text-align: center;
+    background-color: #AFD5AA;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hobbies__box {
+    text-align: center;
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+    padding-left: 152px;
+    width: 1136px;
+}
+
+.academic__title {
+    font-size:32px;
+    text-align: center;
+    background-color: #AFD5AA;
+}
+
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.academic__courses__box {
+    text-align: center;
+}
+.logo__alura {
+    width: 70px;
+    height: 70px;
+}
+.academic__courses__list:hover {
+    background-color: #AFD5AA;
+    border-radius: 8px;
+    padding:3%;
+}
+
+/* experiência*/
+
+section.experience{
+    padding-left: 152px;
+    width: 1136px;
+}
+
+.experience__section__title {
+    font-size:32px;
+    text-align: center;
+    background-color: #AFD5AA;
+}
+
+.experience__img {
+    width: 40%;
+    height: 40%;
+}
+
+.experience__title{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.experience__text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:80px;
+}
+
+.experience__info {
+    width: 367.16px;
+    height: 223.01px;
+}
+.expeciences {
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+}
+
+.experience__text:nth-child(2) {
+    white-space: wrap;
+    line-height: 1.5;
+}
+
+.experience__description {
+    display:flex;
+    gap:8px;
+}
+
+.experiencia__botao--repo {
+    width: 116px;
+    height: 51px;
+    border-radius: 8px;
+    font-family:'Raleway';
+    font-size: 16px;
+    border-color: #AFD5AA;
+    color:#AFD5AA
+}
+
+.experiencia__botao--demo {
+    width: 116px;
+    height: 51px;
+    border-radius: 8px;
+    font-family:'Raleway';
+    font-size:16px;
+    background-color: #AFD5AA;
+    border-color: #AFD5AA;
+    color:#FFFFFF;
+}
+/*Contato*/
+
+section.formcontato{
+    padding-left: 152px;
+    width: 1136px;
+}
+
+.formcontato__contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formcontato--esquerda {
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato__title {
+    font-size:32px;
+    text-align: center;
+    background-color: #AFD5AA;
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+} 
+
+.formcontato__input {
+    font-family: 'Raleway';
+    width: 656px;
+    height: 56px;
+}
+
+.formcontato__textarea {
+    font-family: 'Raleway';
+}
+
+.formcontato__botao {
+    font-family: 'Raleway';
+    width: 168px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: #AFD5AA;
+}
+/*footer*/
+
+section.footer{
+    padding-left: 152px;
+    width: 1136px;
+    
+
+}
+
+.footer__rodape { 
+    text-align: center;
+    padding:1rem;
+    font-size: 16px;
+    background-color: #AFD5AA;
+    margin-top: 4%;
+}
+
+.footer__rodape__text {
+    margin: 0%;
+}
+
+
+
+
+
